@@ -1,0 +1,83 @@
+html, body {
+	margin: 0px;
+	color: #444;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: radial-gradient(#357C85, #3D4756);
+}
+
+.wrapper{
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	height: 40%;
+	border: 2px solid #666;
+	background: linear-gradient(to bottom right, #888, #BBB);
+}
+
+.left, .right{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.left{
+	flex: .8;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+}
+
+.right{
+	flex: 1.6;
+	color: #000;
+	align-items: center;
+	justify-content: normal;
+	display: flex;
+	flex-direction: column;
+}
+
+.text{
+	margin: 30px;
+	text-align: center;
+}
+
+.links{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 18px;
+
+}
+
+.links li{
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.links a{
+	text-decoration: none;
+	padding: 4px;
+}
+
+.links a:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+
+.name {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+
+.profile-pic{
+	border-radius: 4%;
+}
